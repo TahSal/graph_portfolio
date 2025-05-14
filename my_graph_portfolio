@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Tahani Saleh | Generative AI Portfolio</title>
+<style>
+/* Color palette inspired by kirstenoddy.com hormone‑balancing course */
+:root{
+  --primary:#d9736d;   /* warm coral */
+  --accent:#8fb9a8;    /* soft sage green */
+  --bg:#fff9f6;        /* off‑white / blush */
+  --muted:#f7ece9;     /* very light peach */
+  --dark:#2f2f2f;      /* charcoal text */
+}
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--dark);line-height:1.6;}
+header{
+  background:var(--primary);
+  color:#ffffff;
+  padding:4rem 1rem;text-align:center;
+}
+header h1{font-size:2.5rem;margin-bottom:.5rem;letter-spacing:1px;}
+header p{font-size:1.2rem;color:rgba(255,255,255,.9);} 
+/* navigation below header */
+nav{
+  position:sticky;top:0;z-index:1000;
+  background:var(--muted);
+  display:flex;justify-content:center;gap:2rem;
+  padding:0.8rem 1rem;box-shadow:0 2px 6px rgba(0,0,0,.05);
+}
+nav a{color:var(--dark);font-weight:bold;text-decoration:none;padding:0.25rem 0;transition:color .2s,border-bottom .2s;}
+nav a:hover{color:var(--primary);border-bottom:2px solid var(--primary);} 
+section{padding:3rem 1rem;max-width:900px;margin:auto;}
+section h2{font-size:2rem;margin-bottom:1rem;color:var(--primary);} 
+section h3{color:var(--dark);margin-top:1.5rem;margin-bottom:.5rem;}
+.card{background:var(--muted);padding:2rem;border-left:6px solid var(--accent);margin-bottom:2rem;border-radius:12px;}
+.profile-img{width:180px;height:180px;border-radius:50%;object-fit:cover;margin-bottom:1rem;border:4px solid var(--accent);} 
+#week-list a{color:var(--accent);text-decoration:none;transition:color .2s;}
+#week-list a:hover{color:var(--primary);text-decoration:underline;}
+ul{list-style:none;padding-left:0;}
+ul li::before{content:"• ";color:var(--primary);margin-right:.25rem;} 
+footer{text-align:center;padding:2rem 1rem;font-size:.9rem;color:var(--dark);} 
+@media(min-width:768px){header h1{font-size:3rem;}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Dr. Tahani Saleh</h1>
+  <p>Academic Researcher · Medical Doctor · Public Health Specialist</p>
+</header>
+<nav aria-label="Site sections">
+  <a href="#about-me">About Me</a>
+  <a href="#about-course">The Course</a>
+  <a href="#weekly">Submissions</a>
+</nav>
+<main>
+  <section id="about-me" class="card" style="text-align:center;">
+    <img src="https://raw.githubusercontent.com/TahSal/graph_portfolio/main/WhatsApp%20Image%202025-05-14%20at%2011.17.21%20AM.jpeg" alt="Dr. Tahani Saleh" class="profile-img">
+    <h2>About Me</h2>
+    <p>I have 7+ years of experience in public health research, program management, and health system strengthening, particularly in emergency and resource‑limited settings. My work focuses on health promotion, chronic disease management, and advancing health equity for vulnerable populations.</p>
+    <h3>Education & Training</h3>
+    <ul>
+      <li>Master in Public Health – Health Systems Policy & Management, Royal Tropical Institute / Vrije Universiteit Amsterdam</li>
+      <li>Erasmus Summer Programme Fellowship – Public Health Research, Erasmus Medical Center</li>
+      <li>MBBS, University of Jordan</li>
+    </ul>
+  </section>
+  <section id="about-course" class="card">
+    <h2>About the Course</h2>
+    <p><strong>Generative AI for Work &amp; Research Productivity</strong> is a live online certification focused on practical, no‑code AI tools for task automation and research productivity.</p>
+    <h3>Key Outcomes</h3>
+    <ul>
+      <li>Automate document, spreadsheet and data tasks</li>
+      <li>Organize knowledge and accelerate literature reviews</li>
+      <li>Develop custom chatbots and AI workflows</li>
+      <li>Create professional visuals &amp; presentations with AI</li>
+      <li>Build a capstone project to showcase your skills</li>
+    </ul>
+    <h3>Modules</h3>
+    <ul>
+      <li>Documents, Presentations &amp; Websites</li>
+      <li>Automated Data Analysis</li>
+      <li>GenAI for Research &amp; Text Analysis</li>
+      <li>Custom GPTs and Chatbots</li>
+      <li>AI Workflows for Task Automation</li>
+      <li>GenAI for Communication &amp; Outreach</li>
+      <li>Capstone Project &amp; Showcase</li>
+    </ul>
+  </section>
+  <section id="weekly" class="card">
+    <h2>My Weekly Submissions</h2>
+    <p>Links will be added here as the course progresses.</p>
+    <ul id="week-list">
+      <li><a href="#" title="Week 1 Submission">Week 1: Introduction &amp; LLM Fundamentals</a></li>
+      <li><a href="#" title="Week 2 Submission">Week 2: Content Generation &amp; Websites</a></li>
+      <li><a href="#" title="Week 3 Submission">Week 3: Automated Data Analysis</a></li>
+      <li><a href="#" title="Week 4 Submission">Week 4: Literature Review Tools</a></li>
+      <li><a href="#" title="Week 5 Submission">Week 5: Custom GPTs</a></li>
+      <li><a href="#" title="Week 6 Submission">Week 6: Workflow Automation</a></li>
+      <li><a href="#" title="Week 7 Submission">Week 7: Communication &amp; Outreach</a></li>
+      <li><a href="#" title="Week 8 Submission">Week 8: Capstone Showcase</a></li>
+    </ul>
+  </section>
+</main>
+<footer>
+  © 2025 Dr. Tahani Saleh · Portfolio generated for the Generative AI for Work & Research course.
+</footer>
+</body>
+</html>
 
